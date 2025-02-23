@@ -1,0 +1,57 @@
+/* Skip to Main Content Link */
+.skip-link {
+    position: absolute;
+    left: -999px;
+    top: -999px;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    left: 0;
+    top: 0;
+}
+
+/* Navigation Styles */
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.nav-list li a:hover {
+    background-color: #111;
+}
+
+/* Grid Layout for Gallery */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item img {
+    width: 100%;
+    border: 5px solid #ccc;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
